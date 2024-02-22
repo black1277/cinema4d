@@ -1,15 +1,14 @@
 ### Python
 
-## Как создать сплайн в Cinema 4d
-https://developers.maxon.net/docs/Cinema4DPythonSDK/html/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseObject/PointObject/SplineObject/index.html
+## Как создать [сплайн][1] в Cinema 4d
+
 
 Создаем сплайн-примитив (круглый)
 
 ```Python
 circle = c4d.BaseObject(c4d.Osplinecircle)
 ```
-А так же Osplinearc, Osplinestar, Osplineflower, Osplineformula и др.
-https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/objects.html
+А так же [Osplinearc, Osplinestar, Osplineflower, Osplineformula][2] и др.
 
 
 либо создаем пользовательский сплайн, первый аргумент - количество точек
@@ -17,10 +16,9 @@ https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/objects.html
 ```Python
 spline = c4d.SplineObject(2, c4d.SPLINETYPE_LINEAR)
 ```
-типы точек: SPLINETYPE_LINEAR, SPLINETYPE_CUBIC, SPLINETYPE_AKIMA, SPLINETYPE_BSPLINE,
-https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/spline.html
+типы точек: [SPLINETYPE_LINEAR, SPLINETYPE_CUBIC, SPLINETYPE_AKIMA, SPLINETYPE_BSPLINE][3].
 
-если нужно задать количество сегментов или изменить количество точек:
+Если нужно задать количество сегментов или изменить количество точек:
 
 ```Python
 spline.ResizeObject(8,2)
@@ -47,3 +45,7 @@ doc.InsertObject(spline)
 c4d.EventAdd()
 ```
 У SPLINETYPE_LINEAR и SPLINETYPE_BSPLINE нет ручек для настройки кривых (тангенсов)
+
+[1]: https://developers.maxon.net/docs/Cinema4DPythonSDK/html/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseObject/PointObject/SplineObject/index.html "SplineObject"
+[2]: https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/objects.html "objects"
+[3]: https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/spline.html "spline types"
