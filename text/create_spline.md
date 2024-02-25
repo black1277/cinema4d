@@ -46,6 +46,6 @@ c4d.EventAdd()
 ```
 У SPLINETYPE_LINEAR и SPLINETYPE_BSPLINE нет ручек для настройки кривых (тангенсов)
 
-[1]: https://developers.maxon.net/docs/Cinema4DPythonSDK/html/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseObject/PointObject/SplineObject/index.html "SplineObject"
-[2]: https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/objects.html "objects"
-[3]: https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/spline.html "spline types"
+[1]: https://developers.maxon.net/docs/py/23_110/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseObject/PointObject/SplineObject/index.html "SplineObject"
+[2]: https://developers.maxon.net/docs/py/23_110/types/objects.html "objects"
+[3]: https://developers.maxon.net/docs/py/23_110/types/spline.html "spline types"

@@ -1,16 +1,18 @@
 ## Ссылки на официальную документацию
 
-[The Official Cinema 4D R23.110 Python Documentation][5]
+:cinema: [The Official Cinema 4D R23.110 Python Documentation][5]
 
-[Base Object][6] описание базового объекта
+:id: [Base Object][6] описание базового объекта
 
-[Список][1] всех возможных узлов XPRESSO (константы)
+:twisted_rightwards_arrows: [Список][1] всех возможных узлов XPRESSO (константы)
 
-[Список][2] всех типов объектов
+:symbols: [Список][2] всех типов объектов
 
-[Список][3] всех иконок
+:art: [Список][3] всех иконок
 
-[Список][4] всех тегов
+:page_with_curl: [Список][4] всех тегов
+
+:books: [Репозиторий][7] от команды MAXON разработчиков, примеры скриптов и плагинов
 
 [1]: https://developers.maxon.net/docs/py/23_110/types/gvnodes.html "Пример ID_OPERATOR_MATH"
 [2]: https://developers.maxon.net/docs/py/23_110/types/objects.html "Пример Ocube"
@@ -18,3 +20,4 @@
 [4]: https://developers.maxon.net/docs/py/23_110/types/tags.html "Пример Texpresso"
 [5]: https://developers.maxon.net/docs/py/23_110/index.html
 [6]: https://developers.maxon.net/docs/py/23_110/classic_resource/base_list/obase.html
+[7]: https://github.com/PluginCafe/cinema4d_py_sdk_extended/tree/master "github"

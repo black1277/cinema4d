@@ -49,7 +49,6 @@ c4d.EventAdd()
 ```Python
 # тип клонера - линейный
 cloner[c4d.ID_MG_MOTIONGENERATOR_MODE]=c4d.ID_MG_MOTIONGENERATOR_MODE_LINEAR
-
 ```
 где константа c4d.ID_MG_MOTIONGENERATOR_MODE_LINEAR может быть заменена обычным числом 1 . Названия констант можно смотреть в [документации][3] или просто заменять их числами. Так следущее число 2 сделает тип клона радиальным и т.д.
 

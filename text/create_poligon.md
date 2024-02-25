@@ -1,7 +1,6 @@
 ## Python
 
-### Как создать полигон в Cinema 4D
-https://developers.maxon.net/docs/Cinema4DPythonSDK/html/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseObject/PointObject/PolygonObject/index.html
+### Как создать [полигон][1] в Cinema 4D
 
 Создаем новый полигон с тремя точками
 
@@ -31,3 +30,5 @@ https://developers.maxon.net/docs/Cinema4DPythonSDK/html/modules/c4d/C4DAtom/GeL
 ```Python
   polygon.Message(c4d.MSG_UPDATE)
 ```
+
+[1]: https://developers.maxon.net/docs/py/23_110/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseObject/PointObject/PolygonObject/index.html
