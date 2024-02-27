@@ -64,6 +64,7 @@ descId = c4d.DescID(
     c4d.DescLevel(1, c4d.DTYPE_GROUP, 0)) # единица - это ID вкладки
 ```
 сначала, бывает непонятно что это за конструкция. Нужно почитать больше о том, что такое ```c4d.DescID``` и ```c4d.DescLevel```
+
 4. назначаем родителем нашего атрибута созданную вкладку
 ```Python
 innerLONGData[c4d.DESC_PARENTGROUP] = descId
@@ -73,7 +74,7 @@ innerLONGData[c4d.DESC_PARENTGROUP] = descId
 outerGroupId = op.AddUserData(myGroup)
 innerLONGDId = op.AddUserData(innerLONGData)
 ```
-Внимание: тут важен порядок добавления (нам нужно чтобы ID вкладки был равен единице - именно ее мы использовали в дескрипторе)
+:exclamation: Внимание: тут важен порядок добавления (нам нужно чтобы ID вкладки был равен единице - именно ее мы использовали в дескрипторе)
 
 ### создание сплайновых данных
 1. Сначала, создаем контейнер нужного типа
@@ -108,6 +109,35 @@ c4d.EventAdd()
 ```
 
 ### создание кнопки
+В обычном скрипте нет смысла создавать кнопки в атрибутах объекта - скрипт отработал и не сможет реагировать на нажатия. Но если предполагается длительная работа и нужно проверять состояние кнопки то вот:
+```Python
+import c4d
+from c4d import gui
+
+def main():
+    # создадим нуль-объект
+    null_object = c4d.BaseObject(c4d.Onull)
+
+    btn_bc = c4d.GetCustomDatatypeDefault(c4d.DTYPE_BUTTON)
+    btn_bc.SetString(c4d.DESC_NAME, "Click")
+    btn_bc.SetString(c4d.DESC_SHORT_NAME, "click")
+    btn_bc.SetInt32(c4d.DESC_CUSTOMGUI, c4d.CUSTOMGUI_BUTTON) # назначим интерфейс в виде кнопки
+
+    btnID = null_object.AddUserData(btn_bc) # установим на нуль-объект
+    null_object[btnID] = False # считаем что не нажата
+    c4d.SendCoreMessage(c4d.COREMSG_CINEMA, c4d.BaseContainer(c4d.COREMSG_CINEMA_FORCE_AM_UPDATE))
+
+    doc.InsertObject(null_object) # добавим наш нуль-объект в сцену
+
+    btnValue = null_object[c4d.ID_USERDATA,1]  #<---вернет true/false в зависимости от состояния кнопки
+    print (btnValue)
+
+    c4d.EventAdd()
+
+if __name__=='__main__':
+    main()
+```
+Так же здесь использован другой синтаксис для назначения параметров объекту контейнера. В плагинах, генераторах и тегах питона используется метод message для доступа к событию нажатия кнопки.
 
 
 
