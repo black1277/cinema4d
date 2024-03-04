@@ -14,6 +14,7 @@
   - [Как создать тег Xpresso и поместить в него узлы][16]
   - [Как создать объект Voronoi][17]
   - [Как создать новый слой в менеджере слоев][18]
+  - [Как создать узлы в Xpresso и соединить их][19]
 - [совместимость версий][7] при переходе со 2 на 3 Python
 - Что такое:
   - [c4d.DescLevel][10]
@@ -41,3 +42,4 @@
 [16]: create_xpresso.md "create_xpresso"
 [17]: create_voronoi.md "create_voronoi"
 [18]: create_layer.md "create_layer"
+[19]: create_nodes.md "create_nodes"
