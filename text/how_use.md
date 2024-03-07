@@ -23,3 +23,7 @@
 6. Как узел Python в теге Xpresso
 ***
 ![изображение узла Xpresso питон](img/xpresso.jpg)
+
+7. Как поле Python
+***
+![изображение поля питон](img/pole.jpg)
