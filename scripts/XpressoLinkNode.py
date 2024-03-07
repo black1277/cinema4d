@@ -100,16 +100,22 @@ def main():
     node_master.CreateNode(root, c4d.ID_OPERATOR_VECTCALCMATRIX, x=10, y=3350)
     node_master.CreateNode(root, c4d.ID_OPERATOR_WEIGHTMAP, x=10, y=3400)
     node_master.CreateNode(root, c4d.ID_OPERATOR_VERTEXCOLOR, x=10, y=3450)
-    
-    # а это узел Python
+
+    # а это узел Python - немного поработаем с ним =====================
     py_node = node_master.CreateNode(root, 1022471, x=10, y=3500)
     bc = py_node.GetOperatorContainer() # получаем контейнер
     bc[c4d.GV_PYTHON_CODE] = PYTHON_TAG_SCRIPT # добавим свой код
     py_node.SetOperatorContainer(bc) # сохраняем изменения в узле
+
+    did = c4d.DescID(c4d.DescLevel(c4d.IN_LONG, c4d.DTYPE_LONG, 0)) # дескриптор описания для порта
+    inPort = py_node.AddPort(c4d.GV_PORT_INPUT, did, c4d.GV_PORT_FLAG_IS_VISIBLE) # создали целочисленный порт входа
+    inPort.SetName('IntValue') # дали ему имя
+
     py_out = py_node.GetOutPorts()[0] # получаем выходной порт узла питона
     res_in = res.GetInPorts()[0] # получаем входной порт узла результата
     py_out.Connect(res_in) # соединяем
-    
+    # ==================================================================
+
     # Добавляем порты
     node1.AddPort(c4d.GV_PORT_INPUT, c4d.ID_BASEOBJECT_REL_POSITION)
     node1.AddPort(c4d.GV_PORT_OUTPUT, c4d.ID_BASEOBJECT_REL_POSITION)

@@ -21,6 +21,7 @@
   - [c4d.DescID][11]
   - [c4d.BaseList2D][12]
   - [doc.GetActiveObject][13]
+  - [doc.GetActiveObjects][20]
   - [c4d.GetCustomDatatypeDefault][14]
 
 
@@ -43,3 +44,4 @@
 [17]: create_voronoi.md "create_voronoi"
 [18]: create_layer.md "create_layer"
 [19]: create_nodes.md "create_nodes"
+[20]: GetActiveObjects.md "GetActiveObjects"
