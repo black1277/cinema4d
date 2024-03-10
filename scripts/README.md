@@ -11,8 +11,12 @@
 - [MaterialIterator.py][9] - класс итератора материалов и пример использования
 - [TagIterator.py][10] - класс итератора тегов и пример использования
 - [AddUserData.py][11] - на выделенном объекте создает тег Xpresso и пару пользовательских данных. В теге Xpresso создает узел объекта и помещает на порт входа и выхода созданные пользовательские данные
-
-
+- Пара интересных скриптов:
+    - [createSpheres.py][12] создаёт несколько сфер случайного диаметра в случайных местах
+    - [AnimationSphere.py][13] добавляет анимацию синусоидального движения всем найденным в сцене сферам
+- Два скрипта, которые помогут понять как запрограммировать нажатие кнопки в инструменте:
+    - [CallButtonTransferTool.py][14] вызывает нажатие кнопки 'Переместить' в инструменте TransferTool
+    - [callCommandNaming.py][15] вызывает нажатие кнопки 'Переименовать' в инструменте переименования объектов
 
 
 
@@ -32,3 +36,7 @@
 [9]: MaterialIterator.py "MaterialIterator.py"
 [10]: TagIterator.py "TagIterator.py"
 [11]: AddUserData.py "AddUserData.py"
+[12]: createSpheres.py "createSpheres.py"
+[13]: AnimationSphere.py "AnimationSphere.py"
+[14]: CallButtonTransferTool.py "CallButtonTransferTool.py"
+[15]: callCommandNaming.py "callCommandNaming.py"
