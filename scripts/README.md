@@ -17,6 +17,8 @@
 - Два скрипта, которые помогут понять как запрограммировать нажатие кнопки в инструменте:
     - [CallButtonTransferTool.py][14] вызывает нажатие кнопки 'Переместить' в инструменте TransferTool
     - [callCommandNaming.py][15] вызывает нажатие кнопки 'Переименовать' в инструменте переименования объектов
+- [connectNode.py][16] - скрипт с оф. форума. Показывает как соединить порты двух узлов в Xpresso
+- [createUserDataAndGroup.py][17] - скрипт с оф. форума. Создает на объекте пользовательские данные во вложенных группах
 
 
 
@@ -40,3 +42,5 @@
 [13]: AnimationSphere.py "AnimationSphere.py"
 [14]: CallButtonTransferTool.py "CallButtonTransferTool.py"
 [15]: callCommandNaming.py "callCommandNaming.py"
+[16]: connectNode.py "connectNode.py"
+[17]: createUserDataAndGroup.py "createUserDataAndGroup.py"
