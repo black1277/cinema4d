@@ -19,6 +19,7 @@
     - [callCommandNaming.py][15] вызывает нажатие кнопки 'Переименовать' в инструменте переименования объектов
 - [connectNode.py][16] - скрипт с оф. форума. Показывает как соединить порты двух узлов в Xpresso
 - [createUserDataAndGroup.py][17] - скрипт с оф. форума. Создает на объекте пользовательские данные во вложенных группах
+- [GetUserDataContainer.py][18] - скрипт выводит в консоль информацию о пользовательских данных выделенного объекта
 
 
 
@@ -44,3 +45,4 @@
 [15]: callCommandNaming.py "callCommandNaming.py"
 [16]: connectNode.py "connectNode.py"
 [17]: createUserDataAndGroup.py "createUserDataAndGroup.py"
+[18]: GetUserDataContainer.py "GetUserDataContainer.py"

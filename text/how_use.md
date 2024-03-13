@@ -27,3 +27,24 @@
 7. Как поле Python
 ***
 ![изображение поля питон](img/pole.jpg)
+
+8. Как тег `взаимодействие`
+***
+![изображение тега](img/interaction.jpg)
+
+9. Как `Visual Selector` тег (тег > оснастка > Visual Selector)
+***
+![изображение тега](img/visual.jpg)
+
+10. В теге `компоненты персонажа` (тег > оснастка > компоненты персонажа)
+***
+![изображение тега](img/component.jpg)
+
+11. В материале `Sketch and Toon` (галочка python в каналах цвет, толщина и прозрачность)
+***
+![изображение матермала](img/sketch.jpg)
+
+
+Подробности смотреть в документации [Embedded within Cinema 4D][1]
+
+[1]: https://developers.maxon.net/docs/py/23_110/manuals/index.html#embedded-within-cinema-4d "Manual List » Embedded within Cinema 4D"
