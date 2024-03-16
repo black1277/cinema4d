@@ -18,7 +18,7 @@
   mat[c4d.MATERIAL_COLOR_COLOR] = c4d.Vector(1,0,0)
   mat[c4d.MATERIAL_USE_REFLECTION] = False
 ```
-Чтобы настроить другие параметры материала сверяйтесь с [документацией][1]
+Чтобы настроить другие параметры материала сверяйтесь с [документацией][1] Методы объекта `c4d.Material` на странице [документации][4]
 
 Поместим созданный материал в сцену:
 ```Python
@@ -35,3 +35,4 @@
 [1]: https://developers.maxon.net/docs/py/23_110/classic_resource/material/mmaterial.html "Classic Resource overview » Material"
 [2]: https://developers.maxon.net/docs/py/23_110/types/materials.html "Types and Symbols List » Material Types"
 [3]: https://developers.maxon.net/docs/py/23_110/classic_resource/tag/ttexture.html "Classic Resource overview » Material Tag"
+[4]: https://developers.maxon.net/docs/py/23_110/modules/c4d/C4DAtom/GeListNode/BaseList2D/BaseMaterial/Material/index.html "c4d.Material"

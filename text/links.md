@@ -4,6 +4,8 @@
 
 :id: [Base Object][6] описание базового объекта
 
+:house: [DOCUMENTSETTINGS][8] главные настройки документа, моделинга
+
 :twisted_rightwards_arrows: [Список][1] всех возможных узлов XPRESSO (константы)
 
 :symbols: [Список][2] всех типов объектов
@@ -21,3 +23,4 @@
 [5]: https://developers.maxon.net/docs/py/23_110/index.html
 [6]: https://developers.maxon.net/docs/py/23_110/classic_resource/base_list/obase.html
 [7]: https://github.com/PluginCafe/cinema4d_py_sdk_extended/tree/master "github"
+[8]: https://developers.maxon.net/docs/py/23_110/consts/DOCUMENTSETTINGS.html "DOCUMENTSETTINGS"
