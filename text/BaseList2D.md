@@ -23,6 +23,7 @@
 - `BaseList2D.SetLayerData(self, doc, data)` устанавливает данные слоя для этого объекта. Параметры в виде словаря `dict{solo: bool, view: bool, render: bool, manager: bool, locked: bool, generators: bool, expressions: bool, animation: bool, color: Vector, xref: bool}`
 - `BaseList2D.SetLayerObject(self, layer)` установить слой этого объекта
 
+[Пример кода][2] с созданием слоев
 ### Шейдеры:
 - `BaseList2D.GetFirstShader(self)` получить первый шейдер
 - `BaseList2D.InsertShader(self, shader[, pred])` вставить шейдер
@@ -108,3 +109,4 @@ if bl2D.GetInfo() & c4d.OBJECT_MODIFIER:
 
 
 [1]: https://developers.maxon.net/docs/py/23_110/modules/c4d/C4DAtom/GeListNode/BaseList2D/index.html "c4d » c4d.C4DAtom » c4d.GeListNode » c4d.BaseList2D"
+[2]: https://github.com/PluginCafe/cinema4d_py_sdk_extended/blob/master/scripts/04_3d_concepts/scene_elements/scene_management/layer_creates_r13.py "layer_creates"
