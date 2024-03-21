@@ -20,7 +20,8 @@
 - [connectNode.py][16] - скрипт с оф. форума. Показывает как соединить порты двух узлов в Xpresso
 - [createUserDataAndGroup.py][17] - скрипт с оф. форума. Создает на объекте пользовательские данные во вложенных группах
 - [GetUserDataContainer.py][18] - скрипт выводит в консоль информацию о пользовательских данных выделенного объекта
-
+- [multiGradient.py][19] - скрипт создает материал с щейдером градиента в канале цвета. Показаны главные настройки и варианты значений.
+- [ReflectionMaterial.py][20] - скрипт создает материал со слоями в канале отражений. Создаются слой ORENNAYAR и BECKMANN. Показаны главные настройки и варианты значений.
 
 
 
@@ -46,3 +47,5 @@
 [16]: connectNode.py "connectNode.py"
 [17]: createUserDataAndGroup.py "createUserDataAndGroup.py"
 [18]: GetUserDataContainer.py "GetUserDataContainer.py"
+[19]: GetUserDataContainer.py "GetUserDataContainer.py"
+[20]: ReflectionMaterial.py "ReflectionMaterial.py"
