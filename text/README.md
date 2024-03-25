@@ -18,6 +18,7 @@
 - [совместимость версий][7] при переходе со 2 на 3 Python
 - Что такое:
   - [c4d.BaseObject][21]
+  - [c4d.BaseContainer][22]
   - [c4d.BaseList2D][12]
   - [c4d.DescLevel][10]
   - [c4d.DescID][11]
@@ -47,3 +48,4 @@
 [19]: create_nodes.md "create_nodes"
 [20]: GetActiveObjects.md "GetActiveObjects"
 [21]: BaseObject.md "BaseObject"
+[22]: BaseContainer.md "BaseContainer"

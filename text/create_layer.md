@@ -1,20 +1,20 @@
-# Python для Cinema 4D
+
 ## Как создать слой Layer
 
 Создадим новый слой:
 ```Python
-layer = c4d.documents.LayerObject() 
+layer = c4d.documents.LayerObject()
 ```
 см. [LayerObject][1]
 
 Назначим ему цвет и дадим имя:
 ```Python
 layer[c4d.ID_LAYER_COLOR] = c4d.Vector(0.5, 0.3, 0.9)
-layer.SetName("MyLayer") 
+layer.SetName("MyLayer")
 ```
 Получим невидимый корневой слой и добавим в него созданный:
 ```Python
-layerRoot = doc.GetLayerObjectRoot() 
+layerRoot = doc.GetLayerObjectRoot()
 layer.InsertUnder(layerRoot)
 ```
 см. [GetLayerObjectRoot][2]
