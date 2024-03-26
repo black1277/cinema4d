@@ -28,23 +28,23 @@ if __name__=='__main__':
 
 `BaseContainer.GetBool(self, id[, preset])` Возвращает логическое значение с указанным идентификатором или заданное значение, если оно не существует.
 
-`BaseContainer.GetInt32(self, id[, preset])` целое
+`BaseContainer.GetInt32(self, id[, preset])`  .. целое ..
 
-`BaseContainer.GetInt64(self, id[, preset])` целое
+`BaseContainer.GetInt64(self, id[, preset])`  .. целое ..
 
-`BaseContainer.GetFloat(self, id[, preset])` десятичное
+`BaseContainer.GetFloat(self, id[, preset])`  .. десятичное ..
 
-`BaseContainer.GetVector(self, id[, preset])` вектор
+`BaseContainer.GetVector(self, id[, preset])`  .. вектор ..
 
-`BaseContainer.GetMatrix(self, id[, preset])` матрицу
+`BaseContainer.GetMatrix(self, id[, preset])`  .. матрицу ..
 
-`BaseContainer.GetString(self, id[, preset])` строковое
+`BaseContainer.GetString(self, id[, preset])`  .. строковое ..
 
-`BaseContainer.GetFilename(self, id[, preset])` строковое (путь к файлу)
+`BaseContainer.GetFilename(self, id[, preset])`  .. строковое (путь к файлу) ..
 
-`BaseContainer.GetUuid(self, id, preset)` UUID
+`BaseContainer.GetUuid(self, id, preset)`  .. UUID ..
 
-`BaseContainer.GetTime(self, id[, preset])` c4d.BaseTime
+`BaseContainer.GetTime(self, id[, preset])`  .. c4d.BaseTime ..
 
 `BaseContainer.GetContainer(self, id)` Возвращает копию подконтейнера с указанным идентификатором или пустой контейнер, если он не существует.
 
@@ -58,7 +58,9 @@ if __name__=='__main__':
 
 `BaseContainer.GetCustomDataType(self, id)` Возвращает копию пользовательского типа данных или None, если не существует.
 
+Помимо методов получения свойств, существуют аналогичные методы для установки свойств, например:
 
+`BaseContainer.SetBool(self, id, b)` устанавливает логическое свойство
 
 Примеры кода:
 ```python
