@@ -36,7 +36,72 @@
 
 
 
+Примеры кода:
+```python
+import c4d
 
+def tag_operations(obj):
+    # Получение и вывод всех тегов объекта
+    tags = obj.GetTags()
+    print(f"Теги объекта: {', '.join([tag.GetName() for tag in tags])}")
+
+    # Добавление нового тега Phong к объекту
+    phong_tag = c4d.BaseTag(c4d.Tphong)
+    obj.InsertTag(phong_tag)
+    print("Добавлен тег Phong.")
+
+    # Удаление всех тегов Phong у объекта
+    while obj.GetTag(c4d.Tphong):
+        obj.KillTag(c4d.Tphong)
+    print("Все теги Phong удалены.")
+
+def object_transformations(obj):
+    # Вывод абсолютных координат объекта
+    abs_pos = obj.GetAbsPos()
+    abs_scale = obj.GetAbsScale()
+    abs_rot = obj.GetAbsRot()
+    print(f"Абсолютное положение: {abs_pos}")
+    print(f"Абсолютный масштаб: {abs_scale}")
+    print(f"Абсолютное вращение: {abs_rot}")
+
+    # Вывод относительных координат объекта
+    rel_pos = obj.GetRelPos()
+    rel_scale = obj.GetRelScale()
+    rel_rot = obj.GetRelRot()
+    print(f"Относительное положение: {rel_pos}")
+    print(f"Относительный масштаб: {rel_scale}")
+    print(f"Относительное вращение: {rel_rot}")
+
+    # Вывод замороженных координат объекта
+    frozen_pos = obj.GetFrozenPos()
+    frozen_scale = obj.GetFrozenScale()
+    frozen_rot = obj.GetFrozenRot()
+    print(f"Замороженное положение: {frozen_pos}")
+    print(f"Замороженный масштаб: {frozen_scale}")
+    print(f"Замороженное вращение: {frozen_rot}")
+
+    # Вывод матриц объекта
+    local_matrix = obj.GetMl()
+    global_matrix = obj.GetMg()
+    print(f"Локальная матрица: {local_matrix}")
+    print(f"Глобальная матрица: {global_matrix}")
+
+# Основная функция
+def main():
+    # Получаем активный объект
+    active_obj = doc.GetActiveObject()
+    if active_obj is None:
+        print("Нет активного объекта.")
+        return
+
+    object_transformations(active_obj)
+    tag_operations(active_obj)
+    c4d.EventAdd()
+
+# Вызов основной функции
+if __name__=="__main__":
+    main()
+```
 
 
 
