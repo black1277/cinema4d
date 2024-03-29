@@ -8,6 +8,12 @@
 
 Примечание: Важно помнить, что вызов `c4d.CallCommand()` должен происходить только из основного потока. Его запрещено вызывать в выражениях (например, в генераторах Python, тегах, узлах XPresso и т.д.).
 
-
+Примеры кода:
+```python
+  c4d.CallCommand(100004788, 50077) # 100004788 создать тег, 50077 - тег материала
+  c4d.CallCommand(100004788, 50026) # 50026 - тег фонга
+  c4d.CallCommand(100004788, 50064) # 50064 - тег питона
+  c4d.CallCommand(100004788, 50065) # 50065 - тег Xpresso
+```
 
 [1]: https://developers.maxon.net/docs/py/23_110/modules/c4d/index.html?highlight=c4d%20callcommand#c4d.CallCommand "c4d.CallCommand"
