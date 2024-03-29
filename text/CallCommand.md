@@ -16,4 +16,13 @@
   c4d.CallCommand(100004788, 50065) # 50065 - тег Xpresso
 ```
 
+<details>
+  <summary>Таблица большинства команд для c4d.CallCommand</summary>
+
+{% embed url="https://gist.github.com/black1277/27f72d3f95f377d08b7a8dea0c5962ab" %}
+
+</details>
+
+
+
 [1]: https://developers.maxon.net/docs/py/23_110/modules/c4d/index.html?highlight=c4d%20callcommand#c4d.CallCommand "c4d.CallCommand"
