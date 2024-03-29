@@ -17,14 +17,13 @@
 ```
 
 <details>
-  <summary>Таблица большинства команд для c4d.CallCommand</summary>
+  <summary> :octocat: Таблица большинства команд для c4d.CallCommand</summary>
 
 <a href="https://gist.github.com/black1277/27f72d3f95f377d08b7a8dea0c5962ab" title="Ссылка на Gist" target="_blank">Если не все (1894 - всего), то большая часть команд из Cinema 4D R23</a>
 
-{% embed url="https://gist.github.com/black1277/27f72d3f95f377d08b7a8dea0c5962ab" %}
-
 </details>
 
+{% embed url="https://gist.github.com/black1277/27f72d3f95f377d08b7a8dea0c5962ab" %}
 
 
 [1]: https://developers.maxon.net/docs/py/23_110/modules/c4d/index.html?highlight=c4d%20callcommand#c4d.CallCommand "c4d.CallCommand"
