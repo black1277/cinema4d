@@ -15,6 +15,7 @@
   - [Как создать объект Voronoi][17]
   - [Как создать новый слой в менеджере слоев][18]
   - [Как создать узлы в Xpresso и соединить их][19]
+  - [Как создать диалоговое окно][24]
 - [совместимость версий][7] при переходе со 2 на 3 Python
 - Что такое:
   - [c4d.BaseObject][21]
@@ -51,3 +52,4 @@
 [21]: BaseObject.md "BaseObject"
 [22]: BaseContainer.md "BaseContainer"
 [23]: CallCommand.md "CallCommand"
+[24]: dialog.md "dialog"
