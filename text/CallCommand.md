@@ -17,7 +17,7 @@
 ```
 
 <details>
-  <summary> :octopus: Таблица большинства команд для c4d.CallCommand</summary>
+  <summary>Таблица большинства команд для c4d.CallCommand</summary>
 
 <a href="https://gist.github.com/black1277/27f72d3f95f377d08b7a8dea0c5962ab" title="Ссылка на Gist" target="_blank">Ссылка на Gist - c4d.CallCommand(ID)</a>
 
