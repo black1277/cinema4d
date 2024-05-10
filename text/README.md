@@ -6,6 +6,7 @@
 - [Как можно использовать Python в Cinema 4D][3]
 - [Основные концепции и API Cinema 4D][26]
 - [Python объекты выраженные в константах][27]
+- [Навигация по различным объектам сцены][28]
 - Как с помощью Python создать в Cinema 4D:
   - [Как создать сплайн в Cinema 4d][4]
   - [Как создать полигон в Cinema 4D][5]
@@ -59,3 +60,4 @@
 [25]: UNDOTYPE.md "UNDOTYPE"
 [26]: concept.md "conception"
 [27]: https://gist.github.com/black1277/6a75cb4c2a616dfae5fe939a5ec5eeb0 "conception"
+[28]: navigate.md "navigate.md"
