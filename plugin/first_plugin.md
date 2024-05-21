@@ -179,7 +179,7 @@ PLUGIN_INFO = c4d.OBJECT_GENERATOR
         circle[c4d.PRIM_NSIDE_SIDES] = op[c4d.SIMPLEGENERATOR_SEGMENTS_LINES]
         # Создание объекта Osweep
         sweep = c4d.BaseObject(c4d.Osweep)
-        sweep[c4d.ID_BASEOBJECT_REL_POSITION,c4d.VECTOR_Y] = op[c4d.SIMPLEGENERATOR_DIAMETRS_SPHERES] - 1
+        sweep[c4d.ID_BASEOBJECT_REL_POSITION,c4d.VECTOR_Y] = op[c4d.SIMPLEGENERATOR_DIAMETRS_SPHERES]
         linispline.InsertUnder(sweep)
         circle.InsertUnder(sweep)
         circle.Message(c4d.MSG_UPDATE)
@@ -200,6 +200,8 @@ PLUGIN_INFO = c4d.OBJECT_GENERATOR
 ![созданный объект](img/result.jpg)
 
 Теперь, вы можете создавать и свои объекты, назначать им параметры и свою логику. Сконвертируйте полученный объект в полигональный клавишей `C` - вы увидите что он состоит из тех объектов, которые мы создавали в методе `GetVirtualObjects`
+
+PS. Созданный таким образом плагин - прекрасно работает в Cinema 4d R23 !
 
 
 
