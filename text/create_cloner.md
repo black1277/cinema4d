@@ -98,6 +98,14 @@ if __name__=='__main__':
     main()
 ```
 
+<details>
+  <summary>Cinema4D R23 - Python объекты выраженные в константах</summary>
+
+<a href="https://gist.github.com/black1277/6a75cb4c2a616dfae5fe939a5ec5eeb0" title="Ссылка на Gist" target="_blank">Ссылка на Gist</a>
+
+</details>
+
+{% embed url="https://gist.github.com/black1277/6a75cb4c2a616dfae5fe939a5ec5eeb0" %}
 
 [1]: https://developers.maxon.net/docs/py/23_110/types/objects.html
 [2]: https://developers.maxon.net/docs/py/23_110/classic_resource/object/mglineararray.html
