@@ -14,7 +14,7 @@
 
 - [плейлист на ютубе][8] от Expresso Mechanic TV
 
-- [vonc.fr] - создатель плагинов Vonc Suite поделился исходными кодами и интересной библиотекой
+- [vonc.fr][9] - создатель плагинов Vonc Suite поделился исходными кодами и интересной библиотекой
 
 [1]: https://github.com/nrosenstein-c4d/c4d-prototype-converter "Cinema 4D Prototype Converter"
 [2]: https://gist.github.com/NiklasRosenstein "gist.github"

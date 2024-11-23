@@ -22,6 +22,7 @@
 - [GetUserDataContainer.py][18] - скрипт выводит в консоль информацию о пользовательских данных выделенного объекта
 - [multiGradient.py][19] - скрипт создает материал с шейдером градиента в канале цвета. Показаны главные настройки и варианты значений.
 - [ReflectionMaterial.py][20] - скрипт создает материал со слоями в канале отражений. Создаются слой ORENNAYAR и BECKMANN. Показаны главные настройки и варианты значений.
+- [RemoveMat.py][21] - добавил скрипт, который удаляет со всех объектов сцены теги с отсутствующими материалами (теги с вопросами)
 
 
 
@@ -49,3 +50,4 @@
 [18]: GetUserDataContainer.py "GetUserDataContainer.py"
 [19]: multiGradient.py "multiGradient.py"
 [20]: ReflectionMaterial.py "ReflectionMaterial.py"
+[21]: RemoveMat.py "RemoveMat.py"

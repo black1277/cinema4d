@@ -90,7 +90,7 @@ def main():
     #cloner[c4d.MG_LINEAR_OBJECT_POSITION,c4d.VECTOR_Y] = 0
     #cloner[c4d.MG_LINEAR_OBJECT_POSITION,c4d.VECTOR_Z] = 0
     cube.InsertUnder(cloner)# подчиняем куб клонеру
-    doc.InsertObject(cloner) # добавили клонер
+    doc.InsertObject(cloner) # добавили клонер в документ
     # Обновляем сцену после добавления новых объектов
     c4d.EventAdd()
 
