@@ -58,13 +58,13 @@ def main():
     obj = doc.GetFirstObject()
     # получаем все объекты сцены
     scene = ObjectIterator(obj)
-    
+
     # Получаем список всех материалов в документе
     all_materials = doc.GetMaterials()
     # для отслеживания количества удаленных тегов
     removed_tags = 0
-    
-    doc.StartUndo()   
+
+    doc.StartUndo()
     for obj in scene:
         # print (scene.depth, scene.depth*'    ', obj.GetName())
         flagDel = removeTag(obj.GetTags(), all_materials)

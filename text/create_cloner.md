@@ -24,7 +24,7 @@ cube = c4d.BaseObject(c4d.Ocube)
 ```Python
 c4d.CallCommand(300000116) # Протокол скрипта...
 ```
-![изображение протокола скрипта](https://github.com/black1277/cinema4d/blob/main/text/img/protokol.jpg)
+![изображение протокола скрипта](img/protokol.jpg)
 
 Создаем клонер на сцене через меню редактора и наблюдаем в протоколе скрипта:
 ```Python
@@ -55,7 +55,7 @@ cloner[c4d.ID_MG_MOTIONGENERATOR_MODE]=c4d.ID_MG_MOTIONGENERATOR_MODE_LINEAR
 ```Python
 cloner[c4d.MG_LINEAR_COUNT]=7 # количество клонов будет 7
 ```
-![изображение атрибутов клонера](https://github.com/black1277/cinema4d/blob/main/text/img/kolvo.jpg)
+![изображение атрибутов клонера](img/kolvo.jpg)
 
 Перед тем как в коде назначать параметрам свои значения полезно заглянуть в [документацию][2], чтобы не ошибиться с типом значения. Или просто распечатать через print:
 ```Python
